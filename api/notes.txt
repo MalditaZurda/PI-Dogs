@@ -1,0 +1,29 @@
+{
+    weight: { imperial: '6 - 13', metric: '3 - 6' },
+    height: { imperial: '9 - 11.5', metric: '23 - 29' },
+    id: 1,
+    name: 'Affenpinscher',
+    bred_for: 'Small rodent hunting, lapdog',
+    breed_group: 'Toy',
+    life_span: '10 - 12 years',
+    temperament: 'Stubborn, Curious, Playful, Adventurous, Active, Fun-loving',
+    origin: 'Germany, France',
+    reference_image_id: 'BJa4kxc4X',
+    image: {
+      id: 'BJa4kxc4X',
+      width: 1600,
+      height: 1199,
+      url: 'https://cdn2.thedogapi.com/images/BJa4kxc4X.jpg'
+    }
+  }
+
+  type: DataTypes.INTEGER,
+      allowNull: true,
+      validate: {
+        min: 1
+      },
+
+
+  Imperial: En el sistema de medidas imperial, se usa la unidad de libras (lbs) para medir el peso. En este caso, el valor '6 - 13' indica un rango de peso. Esto significa que los perros que caen en este rango de peso pesan entre 6 y 13 libras.
+
+Métrico: En el sistema métrico, se utiliza la unidad de medida kilogramos (kg) para el peso. El valor '3 - 6' indica que, en el sistema métrico, estos mismos perros pesan entre 3 y 6 kilogramos.
